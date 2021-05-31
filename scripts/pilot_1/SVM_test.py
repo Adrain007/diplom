@@ -9,7 +9,7 @@ import plotly.express as px  # for data visualization
 import plotly.graph_objects as go  # for data visualization
 
 # Read in the csv
-df = pd.read_csv('../games.csv', encoding='utf-8')
+df = pd.read_csv('../../games.csv', encoding='utf-8')
 
 # Difference between white rating and black rating - independent variable
 df['rating_difference'] = df['white_rating'] - df['black_rating']
