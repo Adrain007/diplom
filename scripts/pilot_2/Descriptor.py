@@ -28,8 +28,8 @@ from pyspark.sql.types import *
 
 DecimalType(18, 2)
 ShortType
-im = cv2.imread("../img/test.png")
-imgray = cv2.imread("../img/test.png", cv2.IMREAD_GRAYSCALE)
+im = cv2.imread("../../img/test.png")
+imgray = cv2.imread("../../img/test.png", cv2.IMREAD_GRAYSCALE)
 # imgray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
 # ret, thresh = cv2.threshold(imgray, THRESHOLD, 255, 0)
 # ret, thresh = cv2.threshold(imgray, 180, 255, cv2.THRESH_BINARY)
